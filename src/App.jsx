@@ -6,7 +6,8 @@ import Footer from "../components/Footer";
 import TrendingNow from "../components/TrendingNow";
 import WatchItAgain from "../components/WatchItAgain";
 import NewReleases from "../components/NewReleases";
-//import AccountPage from "../components/AccountPage";
+// import Settings from "../components/Settings";
+// import AccountPage from "../components/AccountPage";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <WatchItAgain />
       <NewReleases />
       <Footer />
-      {/*<AccountPage />*/}
+      {/* <AccountPage /> */}
+      {/* <Settings /> */}
     </>
   );
 }
