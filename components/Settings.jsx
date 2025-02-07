@@ -15,7 +15,7 @@ const Settings = () => {
           <div className="col-lg-12 d-flex justify-content-between border-top border-secondary mt-3 col-sm-12 flex-wrap">
             <div className="col-lg-3 mt-2 col-sm-12">
               <h6 className="text-uppercase text-secondary opacity-50">membership & billing</h6>
-              <button type="button" className="btn btn-secondary text-dark rounded-0">
+              <button type="button" className="btn btn-secondary text-light rounded-0">
                 Cancel Membership
               </button>
             </div>
@@ -81,7 +81,7 @@ const Settings = () => {
                   Premium
                   <button
                     type="button"
-                    className="btn btn-transparent border border-dark border-2 px-1 py-0 btn-sm text-uppercase fw-bold text-light"
+                    className="btn btn-transparent border border-light border-2 px-1 py-0 ms-2 btn-sm text-uppercase fw-bold text-light"
                   >
                     ultra hd
                   </button>
