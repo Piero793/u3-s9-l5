@@ -11,14 +11,15 @@ const TVShows = () => {
             <div className="dropdown ms-4 mt-2">
               <DropdownButton
                 id="dropdown-basic-button"
-                variant="secondary bg-dark text-light"
+                variant="dark"
                 size="sm"
                 title="Genres"
                 className="rounded-0"
+                fill="currentColor"
               >
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Thriller</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Drama</Dropdown.Item>
+                <Dropdown.Item href="#">Action</Dropdown.Item>
+                <Dropdown.Item href="#">Thriller</Dropdown.Item>
+                <Dropdown.Item href="#">Drama</Dropdown.Item>
               </DropdownButton>
             </div>
           </div>
