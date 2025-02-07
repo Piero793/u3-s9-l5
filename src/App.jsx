@@ -5,6 +5,7 @@ import TVShows from "../components/TvShows";
 import Footer from "../components/Footer";
 import TrendingNow from "../components/TrendingNow";
 import WatchItAgain from "../components/WatchItAgain";
+import NewReleases from "../components/NewReleases";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TVShows />
       <TrendingNow />
       <WatchItAgain />
+      <NewReleases />
       <Footer />
     </>
   );

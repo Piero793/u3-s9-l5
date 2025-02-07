@@ -1,14 +1,14 @@
 import { Component } from "react";
 import { Container } from "react-bootstrap";
 
-class WatchItAgain extends Component {
+class NewReleases extends Component {
   state = {
     movies: [],
   };
 
   componentDidMount() {
     console.log("FETCH");
-    fetch("http://www.omdbapi.com/?apikey=65f4a0b3&s=zorro")
+    fetch("http://www.omdbapi.com/?apikey=65f4a0b3&s=fantasy")
       .then((response) => {
         console.log("Response", response);
         return response.json();
@@ -27,7 +27,7 @@ class WatchItAgain extends Component {
     console.log("Elenco film", this.state.movies);
     return (
       <Container>
-        <h4 className=" text-light mb-4">Watch it Again</h4>
+        <h4 className=" text-light mb-4">New Releases</h4>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           {this.state.movies
             .filter((_, index) => index < 6)
@@ -42,4 +42,4 @@ class WatchItAgain extends Component {
   }
 }
 
-export default WatchItAgain;
+export default NewReleases;
