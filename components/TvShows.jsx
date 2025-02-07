@@ -11,7 +11,7 @@ const TVShows = () => {
             <div className="dropdown ms-4 mt-2">
               <DropdownButton
                 id="dropdown-basic-button"
-                variant="secondary"
+                variant="secondary bg-dark text-light"
                 size="sm"
                 title="Genres"
                 className="rounded-0"
