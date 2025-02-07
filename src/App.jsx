@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import TVShows from "../components/TvShows";
 import Footer from "../components/Footer";
 import TrendingNow from "../components/TrendingNow";
+import WatchItAgain from "../components/WatchItAgain";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <TVShows />
       <TrendingNow />
+      <WatchItAgain />
       <Footer />
     </>
   );
