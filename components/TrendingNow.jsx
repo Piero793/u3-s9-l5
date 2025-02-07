@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Container } from "react-bootstrap";
 
 class TrendingNow extends Component {
   state = {
@@ -25,8 +26,8 @@ class TrendingNow extends Component {
   render() {
     console.log("Elenco film", this.state.movies);
     return (
-      <div className="bg-dark">
-        <h4 className="ms-4 text-light">Trending Now</h4>
+      <Container>
+        <h4 className=" text-light mb-4">Trending Now</h4>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           {this.state.movies
             .filter((_, index) => index < 6)
@@ -36,7 +37,7 @@ class TrendingNow extends Component {
               </div>
             ))}
         </div>
-      </div>
+      </Container>
     );
   }
 }

@@ -2,7 +2,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" style={{ backgroundColor: "#221f1f" }}>
+    <nav className="navbar navbar-expand-lg " data-bs-theme="dark" style={{ backgroundColor: "#221f1f" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src="../src/assets/logo.png" style={{ width: "100px", height: "55px" }} alt="Logo" />
