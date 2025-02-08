@@ -18,8 +18,8 @@ function App() {
       <WatchItAgain />
       <NewReleases />
       <Footer />
-      {/* <AccountPage/>
-      <Settings/> */}
+      {/* <AccountPage /> */}
+      {/* <Settings /> */}
     </>
   );
 }
