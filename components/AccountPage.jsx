@@ -4,15 +4,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const AccountPage = () => {
   return (
     <div className=" text-light">
-      <header>
-        <nav className="navbar">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              <img src="../src/assets/logo.png" alt="Netflix logo" width="100" height="55" />
-            </a>
-          </div>
-        </nav>
-      </header>
       <main>
         <Container>
           <div className="row">

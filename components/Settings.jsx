@@ -1,13 +1,6 @@
 const Settings = () => {
   return (
     <div className="container-fluid text-light">
-      <nav className="navbar">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="../src/assets/logo.png" alt="Netflix logo" width="100" height="55" />
-          </a>
-        </div>
-      </nav>
       <div className="row d-flex">
         <div className="col-lg-2"></div>
         <div className="col-lg-8">
@@ -27,13 +20,13 @@ const Settings = () => {
                 </a>
               </div>
               <div className="col d-flex justify-content-between">
-                <p className="opacity-50">password: ******</p>
+                <p className="opacity-50">password:</p>
                 <a href="#" className="fw-bold" style={{ textDecoration: "none" }}>
                   Change password
                 </a>
               </div>
               <div className="col d-flex justify-content-between border-bottom border-secondary">
-                <p className="opacity-50">Phone: 123 456 789</p>
+                <p className="opacity-50">Phone:</p>
                 <a href="#" className="fw-bold" style={{ textDecoration: "none" }}>
                   Change phone number
                 </a>

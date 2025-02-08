@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
@@ -22,9 +23,9 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active fw-bold" href="#">
+              <Link className="nav-link active fw-bold" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
@@ -71,8 +72,12 @@ const Navbar = () => {
                 </span>
               }
             >
-              <Dropdown.Item href="#">Edit Profile</Dropdown.Item>
-              <Dropdown.Item href="#">Settings</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/account">
+                Edit Profile
+              </Dropdown.Item>
+              <Dropdown.Item as={Link} to="/settings">
+                Settings
+              </Dropdown.Item>
               <Dropdown.Item href="#">Logout</Dropdown.Item>
             </DropdownButton>
           </div>
