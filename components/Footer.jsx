@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer>
+    <Container>
       <div className="row justify-content-center mt-5">
         <div className="col col-6">
           <div className="row">
@@ -116,7 +116,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </Container>
   );
 };
 
