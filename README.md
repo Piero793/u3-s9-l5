@@ -1,4 +1,4 @@
-# Il Mio Progetto React
+# Netflix Clone
 
 Questo progetto è un'applicazione web sviluppata utilizzando React. Sfrutta la libreria React Bootstrap per una struttura responsive e stilizzata, e React Router DOM per la gestione della navigazione tra le diverse sezioni.
 
@@ -32,7 +32,7 @@ Per avviare questo progetto in locale, segui questi passaggi:
 
 1.  **Clona la repository:**
     ```bash
-    git clone [https://www.amazon.it/Repo-Genetic-Opera/dp/B001MT7ZEW](https://www.amazon.it/Repo-Genetic-Opera/dp/B001MT7ZEW)
+    git clone [https://github.com/Piero793/u3-s9-l5.git]
     cd [nome della tua repository]
     ```
 2.  **Installa le dipendenze:**
